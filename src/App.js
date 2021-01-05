@@ -9,7 +9,7 @@ function App() {
     <div className="app">
         <div className="top__image"> 
             <div className="logo_banner">
-                  <img className="image__CH" src={logo_clubhair} alt="logonbanner" width="80%" height="20%"/>
+                  <img className="image__CH" src={logo_clubhair} alt="logonbanner" />
             </div>
         </div>
         <div className="middle__item">
@@ -29,8 +29,8 @@ function App() {
           <div className="third__section">
           <h3 className="title__sectionv2">SHAMPOO </h3>
           <p className="description__section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
-         </div></div>
-         <div className="third__sections">
+         </div>
+        
           <div className="third__section">
             <h3 className="title__sectionv2">FULL HAIRCUT</h3>
             <p className="description__section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
@@ -48,7 +48,7 @@ function App() {
         </div>
         <div className="product__sections">
             <div>
-              <img src={productimage} alt="productimage" width="95%"/>
+              <img className="productimage" src={productimage} alt="productimage" width="95%"/>
             </div>
             <div className="product__description">
             <h3 className="title__section">OUR PRODUCTS </h3>
