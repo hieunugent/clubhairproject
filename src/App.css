@@ -6,17 +6,18 @@
   background-size: cover;
   position: relative;
   height: 700px;
+  margin-top: 13%;
 }
 .logo_banner{
   align-items: center;
   text-align: center;
   position: absolute;
-  top: 15%;
+  top: -30%;
   left: 30%;
   right:30%;
 }
 .image__CH{
-  border-radius: 2.5rem;
+  border-radius: 20rem;
   width: 80%;
   height: 20%;
 }
@@ -152,9 +153,10 @@ button{
 @media (max-width:600px){
   .top__image{
     height: 300px;
+    margin-top:30px;
   }
   .logo_banner{
-    top:80px !important;
+    top:-30px !important;
   }
   .image__CH{
     width: 100px !important;
