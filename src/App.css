@@ -98,3 +98,40 @@ button{
   margin-left: 5%;
   margin-right: 25%;
 }
+.barbers_section{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/src/image/bgbottom.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.mybarber_section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.barbers_section > h2{
+  color: azure;
+  font-size: 30PX;
+}
+.mybarber{
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mybarber > img{
+  margin-bottom: 40px;
+}
+.mybarber > h3{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.mybarber > span{
+  margin-top: 20px;
+}

@@ -1,6 +1,9 @@
 import './App.css';
 import logo_clubhair from "./image/logoCH.png"
 import productimage from "./image/razor.jpg"
+import matthew from "./image/matthew.png"
+import habeshaw from "./image/habeshaw.png";
+import najafi from "./image/ahmadreza-najafi.png"
 function App() {
   return (
     <div className="app">
@@ -53,6 +56,39 @@ function App() {
             <button className="shopping__Btn">START SHOPPING</button>
 
             </div>
+        </div>
+
+        <div className="barbers_section">
+
+            <h2>
+              OUR BARBERS
+            </h2>
+
+            <div className="mybarber_section">
+            <div className="mybarber">
+                <img src={matthew} alt="matthew picture" width="30%"/>
+                <hr width="10%"/>
+                <h3> MATTHEW GARI </h3>
+                <hr width="10%"/>
+                <span > ★ </span>
+            </div>
+            <div className="mybarber">
+                <img src={habeshaw} alt="habeshaw picture" width="30%"/>
+                <hr width="10%"/>
+                <h3> HABESHAW SMITH </h3>
+                <hr width="10%"/>
+                <span > ★ </span>
+            </div>
+            <div className="mybarber">
+                <img src={najafi} alt="najafi picture" width="30%"/>
+                <hr width="10%"/>
+                <h3> AHMADREZA NAJAFI </h3>
+                <hr width="10%"/>
+                <span > ★ </span>
+            </div>
+            </div>
+            
+
         </div>
 
 
