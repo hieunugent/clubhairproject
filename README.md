@@ -19,5 +19,5 @@
             - staff will setup their available time manually 
             - if staff not setup their available time, it will have option for customer to call staff number
             - not all the staff will working in one day
-        - 
+        - the appointment page is regulate by owner
 
