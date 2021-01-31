@@ -4,8 +4,8 @@ import productimage from "./image/razor.jpg"
 import matthew from "./image/matthew.png"
 import habeshaw from "./image/habeshaw.png";
 import najafi from "./image/ahmadreza-najafi.png"
-
-
+import { Link } from "react-router-dom";
+import "./Landingpage.css";
 function Landingpage() {
     return (
         <div className="landing__pages">
@@ -16,8 +16,11 @@ function Landingpage() {
         </div>
         <div className="middle__item">
         <div className="second__section">
+          <Link to="/ourservice" className="service__section">
           <h3 className="title__section">OUR SERVICES</h3>
           <p className="description__section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </Link>
+          
         </div>
         <div className="third__sections">
           <div className="third__section">
@@ -31,8 +34,7 @@ function Landingpage() {
           <div className="third__section">
           <h3 className="title__sectionv2">SHAMPOO </h3>
           <p className="description__section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
-         </div>
-        
+         </div>  
           <div className="third__section">
             <h3 className="title__sectionv2">FULL HAIRCUT</h3>
             <p className="description__section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  

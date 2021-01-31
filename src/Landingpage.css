@@ -21,7 +21,10 @@
     filter: blur(0.8);
   }
   
-  
+.service__section{
+  text-decoration: none;
+  color: black;
+}
   
 .middle__item{
     display: flex;

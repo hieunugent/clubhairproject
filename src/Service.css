@@ -1,0 +1,129 @@
+.top__imageSer{
+    background-image: url("/src/image/servicetop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 1000px;
+    margin-top: 200px;
+  }
+  .logo_banner--ser{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: -200px;
+    left: 30%;
+    right:30%;
+  }
+  .image__CH--ser{  
+    margin-top: 20px;
+    width:300px;
+    filter: blur(0.8);
+  }
+  @media all and (min-width:1700px ){
+  
+    .logo_banner--ser{
+      top:-200px !important;
+    }
+    .image__CH--ser{
+      width: 70% !important;
+      height: 20% !important;
+    }
+  }
+  
+  @media (max-width:600px){
+    .top__imageSer{
+      height: 300px;
+      margin-top:40px;
+    }
+    .logo_banner--ser{
+      top:-30px !important;
+    }
+    .image__CH--ser{
+        margin-top: 0;
+      width: 100px !important;
+    
+    }
+    .second__section{
+      text-align: center;
+      margin: 15px 10px;
+      width: 360px;
+    }
+    .third__sections{
+      margin: 15px 5px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .third__section{
+      margin-top: 20px;
+      width: 150px;  
+    }
+    .title__section{
+      margin: 10px 5px;
+      font-size: medium;
+    }
+    .title__sectionv2{
+      font-size: medium;
+      margin: 5px;
+    }
+    .description__section{
+      margin: 5px;
+      font-size: 11px;
+    }
+  
+    .shopping__Btn{
+      margin-top: 20%;
+      margin-left: 5%;
+      width:fit-content;
+    }
+    .product__sections{
+    margin-left: 0;
+    margin-right: 0;
+     margin-top: 10px;
+      margin-bottom: 40px;
+    }
+    .product__description{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .productimage{
+      width: 180px;
+    }
+    .description__product{
+      margin-top: 15px;
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 11px;
+    }
+    .barbers_section{
+      height: fit-content;
+    }
+    .mybarber_section{
+      flex-wrap: wrap;
+     
+    }
+    .barbers_section > h2{
+      color: azure;
+      font-size: large;
+      margin: 20px;
+      margin-bottom: 30px;
+    }
+    .mybarber{
+      color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .mybarber > img{
+      margin-bottom: 40px;
+    }
+    .mybarber > h3{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: medium;
+    }
+    .mybarber > span{
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+  }

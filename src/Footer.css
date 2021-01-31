@@ -1,0 +1,14 @@
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__media{
+    display: flex;
+    flex-direction: row;
+}
+.footer__media > p {
+    margin: 10px;
+}
