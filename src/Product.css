@@ -1,0 +1,46 @@
+.product__banner{
+    /* background-image: url("/src/image/servicetop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    position: relative;
+    height: 100px;
+    margin-top: 200px;
+  }
+.product__logo{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: -200px;
+    left: 30%;
+    right:30%;
+  }
+.product__logo--img{  
+    /* margin-top: 20px; */
+    width:100px;
+    filter: blur(0.8);
+  }
+@media all and (min-width:1700px ){
+  
+    .product__logo{
+      top:-200px !important;
+    }
+    .product__logo--img{
+      width: 200px !important;
+        }
+  }
+  
+@media (max-width:600px){
+    .product__logo{
+      margin-top:40px;
+    }
+    .logo_banner--Appointment{
+      top:-30px !important;
+    }
+    .product__logo--img{
+        margin-top: 0;
+      width: 100px !important;
+    
+    }
+  
+  }

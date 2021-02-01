@@ -6,7 +6,8 @@ import "./App.css";
 // internal import page
 import Landingpage from "./Landingpage";
 import Footer from "./Footer";
-import Service from "./Service";
+import Product from "./Product";
+import Service from "./Service"
 import AppointmentPage from "./AppointmentPage";
 
 
@@ -31,7 +32,7 @@ function App() {
              <Footer/>
           </Route>
           <Route path="/shopping">
-             <Service/>
+             <Product/>
              <Footer/>
           </Route>
           <Route path="/">
