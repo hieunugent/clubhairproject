@@ -7,6 +7,7 @@ import "./App.css";
 import Landingpage from "./Landingpage";
 import Footer from "./Footer";
 import Service from "./Service";
+import AppointmentPage from "./AppointmentPage";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
              <Footer/>
           </Route>
           <Route path="/makeanappointment">
-             <Service/>
+             <AppointmentPage/>
              <Footer/>
           </Route>
           <Route path="/shopping">

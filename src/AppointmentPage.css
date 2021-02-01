@@ -1,0 +1,48 @@
+.top__image--Appointment{
+    background-image: url("/src/image/servicetop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 1000px;
+    margin-top: 200px;
+  }
+  .logo_banner--Appointment{
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: -200px;
+    left: 30%;
+    right:30%;
+  }
+  .image__CH--Appointment{  
+    /* margin-top: 20px; */
+    width:300px;
+    filter: blur(0.8);
+  }
+  @media all and (min-width:1700px ){
+  
+    .logo_banner--Appointment{
+      top:-200px !important;
+    }
+    .image__CH--Appointment{
+      width: 70% !important;
+      height: 20% !important;
+    }
+  }
+  
+  @media (max-width:600px){
+    .top__image--Appointment{
+      height: 300px;
+      margin-top:40px;
+    }
+    .logo_banner--Appointment{
+      top:-30px !important;
+    }
+    .image__CH--Appointment{
+        margin-top: 0;
+      width: 100px !important;
+    
+    }
+  
+  }

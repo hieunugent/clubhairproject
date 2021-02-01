@@ -48,7 +48,8 @@ function Landingpage() {
           <p className="description__section">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  
          </div>
         </div>
-        <button className="appointment__Btn">MAKE AN APPOINMENT</button>
+        <Link to="/makeanappointment">  <button className="appointment__Btn">MAKE AN APPOINMENT</button> </Link>
+       
         </div>
         <div className="product__sections">
             <div>
